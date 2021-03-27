@@ -16,6 +16,8 @@
                 <chartingToolkit:LinearAxis Orientation="Y" Minimum="0" Maximum="50" Title="Value" ShowGridLines="True" />
             </chartingToolkit:Chart.Axes>
             <chartingToolkit:ColumnSeries ItemsSource="{Binding Path=Data}" DependentValuePath="Value" IndependentValuePath="Name" />
-        </chartingToolkit:Chart>
-    </Grid>
+        </chartingToolkit:Chart>
+
+    </Grid>
+
 </Window>
